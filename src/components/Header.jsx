@@ -7,7 +7,7 @@ const Header = () => {
     <header >
       <nav className='flex justify-between w-full'>
         <div>
-          <Image src={appleImg} height={30} width={30} alt='applelogo' />
+          <Image src={appleImg} height={20} width={20} alt='applelogo' />
         </div>
 
         <div className='md:flex hidden gap-7 '>
@@ -20,10 +20,10 @@ const Header = () => {
 
         <div className='flex md:gap-7 gap-5'>
           <div className='cursor-pointer opacity-80 hover:opacity-100'>
-            <Image src={searchImg} height={30} width={30} alt='searchlogo'/>
+            <Image src={searchImg} height={20} width={20} alt='searchlogo'/>
           </div>
           <div className='cursor-pointer opacity-80 hover:opacity-100'>
-          <Image src={bagImg} height={30} width={30} alt='baglogo'/>
+          <Image src={bagImg} height={20} width={20} alt='baglogo'/>
 
           </div>
         </div>

@@ -2,6 +2,7 @@ import hero from "../assets/images/hero.jpeg";
 
 export const heroImg = hero;
 
+import camera from "../assets/images/iphonecamera.png"
 import apple from "../assets/images/apple.svg";
 import search from "../assets/images/search.svg";
 import bag from "../assets/images/bag.svg";
@@ -37,7 +38,7 @@ export const rightImg = right;
 export const replayImg = replay;
 export const playImg = play;
 export const pauseImg = pause;
-
+export const camerImg = camera;
 export const yellowImg = yellow;
 export const blueImg = blue;
 export const whiteImg = white;
