@@ -4,13 +4,13 @@ import { appleImg } from '../utils'
 import { bagImg,searchImg } from '../utils'
 const Header = () => {
   return (
-    <header>
-      <nav className='flex md:justify-between'>
+    <header >
+      <nav className='flex justify-between w-full'>
         <div>
-          <Image src={appleImg} height={30} width={30} />
+          <Image src={appleImg} height={30} width={30} alt='applelogo' />
         </div>
 
-        <div className='md:flex sm:hidden gap-7 '>
+        <div className='md:flex hidden gap-7 '>
           <span className='text-gray-300 hover:text-white cursor-pointer '>Store</span>
           <span className='text-gray-300 hover:text-white cursor-pointer'>Mac</span>
           <span className='text-gray-300 hover:text-white cursor-pointer'>IPhone</span>
@@ -18,12 +18,12 @@ const Header = () => {
 
         </div>
 
-        <div className='flex gap-7'>
+        <div className='flex md:gap-7 gap-5'>
           <div className='cursor-pointer opacity-80 hover:opacity-100'>
-            <Image src={searchImg} height={30} width={30}/>
+            <Image src={searchImg} height={30} width={30} alt='searchlogo'/>
           </div>
           <div className='cursor-pointer opacity-80 hover:opacity-100'>
-          <Image src={bagImg} height={30} width={30}/>
+          <Image src={bagImg} height={30} width={30} alt='baglogo'/>
 
           </div>
         </div>
